@@ -17,7 +17,7 @@ const links = [
     text: "Examples",
     url: "https://github.com/gatsbyjs/gatsby/tree/master/examples",
     description:
-      "A collection of websites ranging from very basic to complex/complete that illustrate how to accomplish specific tasks within your Gatsby sites.",
+      "A collection of  crazy websites ranging from very basic to complex/complete that illustrate how to accomplish specific tasks within your Gatsby sites.",
   },
   {
     text: "Plugin Library",
