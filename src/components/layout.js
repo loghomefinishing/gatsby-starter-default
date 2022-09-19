@@ -44,6 +44,9 @@ const Layout = ({ children }) => {
           {` `}
           <a href="https://www.gatsbyjs.com">Gatsby</a>
         </footer>
+        <h1 className="text-4xl font-bold underline">
+        Hello world!
+      </h1>
       </div>
     </>
   )

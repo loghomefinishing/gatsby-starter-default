@@ -82,6 +82,35 @@ const IndexPage = () => (
         alt=""
         style={{ marginBottom: `var(--space-3)` }}
       />
+      <div class="alert alert-info shadow-lg">
+  <div>
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="stroke-current flex-shrink-0 w-6 h-6"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+    <span>New software update available.</span>
+  </div>
+</div>
+      <h1 class="text-3xl font-bold underline">
+    Hello world!
+  </h1>
+  <div class="carousel w-full">
+  <div id="item1" class="carousel-item w-full">
+    <img src="https://placeimg.com/800/200/arch" class="w-full" />
+  </div> 
+  <div id="item2" class="carousel-item w-full">
+    <img src="https://placeimg.com/800/200/arch" class="w-full" />
+  </div> 
+  <div id="item3" class="carousel-item w-full">
+    <img src="https://placeimg.com/800/200/arch" class="w-full" />
+  </div> 
+  <div id="item4" class="carousel-item w-full">
+    <img src="https://placeimg.com/800/200/arch" class="w-full" />
+  </div>
+</div> 
+<div class="flex justify-center w-full py-2 gap-2">
+  <a href="#item1" class="btn btn-xs">1</a> 
+  <a href="#item2" class="btn btn-xs">2</a> 
+  <a href="#item3" class="btn btn-xs">3</a> 
+  <a href="#item4" class="btn btn-xs">4</a>
+</div>
       <h1>
         Welcome to <b>Gatsby!</b>
       </h1>
